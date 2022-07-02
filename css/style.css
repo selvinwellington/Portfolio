@@ -141,15 +141,19 @@ header.sticky ul li a {
   position: fixed;
   bottom: 0;
   right: 15px;
-  border: 3px solid #f1f1f1;
+  /* border: 3px solid #f1f1f1; */
   z-index: 9;
+  margin-right: 20%;
+  
 }
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 250px;
+  max-width: 350px;
   padding: 10px;
-  background-color: white;
+  background-color: #20C863;
+  border-radius:15px;
+
 }
 
 /* Full-width textarea */
@@ -176,9 +180,10 @@ header.sticky ul li a {
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   margin-bottom:10px;
   opacity: 0.8;
+ text-align: center;
 }
 
 /* Add a red background color to the cancel button */
