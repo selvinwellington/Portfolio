@@ -151,9 +151,9 @@ header.sticky ul li a {
 .form-container {
   max-width: 350px;
   padding: 10px;
-  background-color: #20C863;
+  background-color: #4d4dff;
   border-radius:15px;
-
+  margin-bottom: 10px;
 }
 
 /* Full-width textarea */
@@ -162,33 +162,35 @@ header.sticky ul li a {
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
+  background: #ccddff;
   resize: none;
   min-height: 200px;
+  color:black;
 }
 
 /* When the textarea gets focus, do something */
 .form-container textarea:focus {
-  background-color: #ddd;
+    background: #ccddff;
   outline: none;
 }
 
 /* Set a style for the submit/send button */
 .form-container .btn {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #ccddff;
+  color: black;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 50%;
-  margin-bottom:10px;
+  margin-bottom:10px; 
   opacity: 0.8;
- text-align: center;
+  margin-left: 25%;
 }
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: red;
+  background-color: #ccddff;
 }
 
 /* Add some hover effects to buttons */
